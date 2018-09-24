@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OlS Test Suite" duration-ms="17074" started-at="2018-09-11T06:28:37Z" finished-at="2018-09-11T06:28:54Z">
+    <groups>
+    </groups>
+    <test name="Free CRM App Test Cases" duration-ms="17074" started-at="2018-09-11T06:28:37Z" finished-at="2018-09-11T06:28:54Z">
+      <class name="com.ols.tests.AdminLoginPageTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ols.tests.AdminLoginPageTest@490ab905]" name="beforeMethod" is-config="true" duration-ms="4267" started-at="2018-09-11T06:28:47Z" finished-at="2018-09-11T06:28:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.ols.tests.AdminLoginPageTest@490ab905]" name="loginTest" duration-ms="2973" started-at="2018-09-11T06:28:51Z" finished-at="2018-09-11T06:28:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.ols.tests.AdminLoginPageTest -->
+      <class name="com.ols.tests.HomePageTest">
+        <test-method status="PASS" signature="initiateSute()[pri:0, instance:com.ols.tests.HomePageTest@1e397ed7]" name="initiateSute" is-config="true" duration-ms="3514" started-at="2018-09-11T06:28:33Z" finished-at="2018-09-11T06:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateSute -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ols.tests.HomePageTest@1e397ed7]" name="setUp" is-config="true" duration-ms="8211" started-at="2018-09-11T06:28:37Z" finished-at="2018-09-11T06:28:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="headerTitleTest()[pri:0, instance:com.ols.tests.HomePageTest@1e397ed7]" name="headerTitleTest" duration-ms="1585" started-at="2018-09-11T06:28:45Z" finished-at="2018-09-11T06:28:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerTitleTest -->
+        <test-method status="PASS" signature="sendReportEmail()[pri:0, instance:com.ols.tests.HomePageTest@1e397ed7]" name="sendReportEmail" is-config="true" duration-ms="4012" started-at="2018-09-11T06:28:54Z" finished-at="2018-09-11T06:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendReportEmail -->
+      </class> <!-- com.ols.tests.HomePageTest -->
+    </test> <!-- Free CRM App Test Cases -->
+  </suite> <!-- OlS Test Suite -->
+</testng-results>

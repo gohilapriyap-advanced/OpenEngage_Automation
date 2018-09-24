@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [OlS Test Suite]">
+  <test thread-count="5" name="Free CRM App Test Cases(failed)">
+    <classes>
+      <class name="com.ols.tests.IndividualMemberPageTest">
+        <methods>
+          <include name="initiateSute"/>
+          <include name="sendReportEmail"/>
+          <include name="setUp"/>
+          <include name="createPersonData" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.ols.tests.IndividualMemberPageTest -->
+    </classes>
+  </test> <!-- Free CRM App Test Cases(failed) -->
+</suite> <!-- Failed suite [OlS Test Suite] -->
